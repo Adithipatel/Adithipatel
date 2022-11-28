@@ -1,0 +1,566 @@
+ 16  
+Audio.html
+@@ -0,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Audio</title>
+</head>
+<body>
+    <audio controls src=" "></audio>
+    <audio controls>
+        <source src=" "></source>
+    </audio>
+</body>
+</html>
+ 13  
+Canvas.html
+@@ -0,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>HTML5 Canvas</title>
+</head>
+<body>
+    <canvas id="canvas" width="300px" height="300px"></canvas>
+</body>
+</html>
+ 13  
+DateandTime.html
+@@ -0,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Date and Time</title>
+</head>
+<body>
+    <time datetime="2021-5-01T15:45-06:00">1st May 2021</time>
+</body>
+</html>
+ 20  
+Debugging.html
+@@ -0,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Debugging in Html</title>
+  </head>
+  <body>
+    <h2>paragraph</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque vel,
+      suscipit hic, et reiciendis beatae porro consequatur magni, vero
+      voluptates dolorum neque minima dignissimos quod dolore rem! Distinctio,
+      ad nobis?
+    </p>
+    <small>All rights reserved &copy; 2021</small>
+  </body>
+</html>
+ 57  
+Emptytags.html
+@@ -0,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Empty Tags in HTML</title>
+  </head>
+  <body>
+    <!-- Line Break -->
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, fugiat!
+    <br>
+    Maiores non, amet quam praesentium autem nemo, vero consectetur esse totam
+    <br>
+    ducimus ipsa! Necessitatibus, a nisi ipsum reiciendis cumque nulla? Lorem
+    <br>
+    ipsum dolor, sit amet consectetur adipisicing elit. Alias recusandae eaque
+    <br>
+    non officia repudiandae, blanditiis sunt repellat enim ad nobis, commodi
+    <br>
+    voluptatibus ut vitae veritatis dicta delectus quisquam et quam?
+
+    <!-- Line with Break  -->
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui tenetur
+      molestias illum obcaecati placeat harum facere dignissimos, expedita
+      <hr>
+      aperiam, rem maiores delectus error consequuntur cumque magnam! Unde cum
+      beatae sapiente?
+    </p>
+
+    <!-- Spacing Format -->
+    <pre>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+         Quia veritatis,
+          recusandae nostrum voluptas ut cumque 
+            similique tenetur totam minus neque expedita assumenda, vitae, officiis aliquid omnis sit officia eveniet error.
+    </pre>
+
+    <!-- Using code inside para -->
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Neque adipisci laboriosam hic natus fugiat, ullam ea earum,
+          quibusdam error itaque<code>suscipit sapiente qui deleniti doloremque consequatur</code>  reiciendis recusandae, maxime nam?
+    </p>
+
+    <!-- Forcing not to break a line -->
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sapiente debitis deserunt modi&nbsp; atque asperiores 
+        labore maiores deleniti nesciunt et ipsam iusto autem facere esse, inventore&nbsp;&nbsp;, dicta odio tempore quae!
+    </p>
+
+  </body>
+</html>
+ 44  
+Images and responsiveness.html
+@@ -0,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Images & Responsiveness</title>
+  </head>
+  <body>
+    <!-- <img
+      src="https://youimg1.tripcdn.com/target/100k1f000001gui9o94D8_C_880_350_R5.jpg?proc=source%2ftrip"
+      alt="House"
+      width="100%"
+      height="100%"
+      srcset="
+        "/C:\Users\jnite\Downloads\artificial-intelligence-AI.jpg  480w,
+        "/C:\Users\jnite\Downloads\artificial-intelligence-AI.jpg  800w,
+        "/C:\Users\jnitepx\Downloads\artificial-intelligence-AI.jpg 1200w"
+      sizes="(max-width: 480px) 240px,
+             (max-width: 960px) 480px,
+             (max-width: 1440px) 960px"
+    />
+   -->
+  <picture>
+      <source media="(max-width: 600px)" srcset="https://youimg1.tripcdn.com/target/100k1f000001gui9o94D8_C_880_350_R5.jpg?proc=source%2ftrip">
+      <source media="(max-width: 900px)" srcset="https://www.tourmyindia.com/blog//wp-content/uploads/2019/02/Rishikesh-Yoga-City-India.jpg">
+      <img src="https://www.kids-world-travel-guide.com/images/xmauritius_mornebrabant-2.jpg.pagespeed.ic.eAoB57Gsox.jpg" alt="">
+  </picture>
+
+  <!-- Image Mapping -->
+
+<img src="https://storage.googleapis.com/nextivawebsites-wordpressfiles-voip/var/www/virtual/nextiva.com/voip/How-to-Get-More-Productivity-From-a-Larger-Team-scaled.jpg" alt="workspace" usemap="workspace">
+
+<map name="workspace">
+    <area shape="rect" coords="34,44,270,150" alt="computer" href="computer.html">
+    <area shape="rect" coords="290,172,333,250" href="phone.html" alt="Phone">
+    <area shape="circle" coords="337,300,44" href="cup.html" alt="cup">
+
+</map>
+
+
+</body>
+</html>
+ 17  
+LinkandNavigation.html
+@@ -0,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Links & Navigation</title>
+</head>
+<body>
+    <!-- Relative URL Path -->
+    <a href="lists.html">click here</a>
+
+    <!-- Absoulute URL path -->
+    <a href="http://www.google.com">Google</a>
+</body>
+</html>
+ 17  
+Quotes.html
+@@ -0,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <title>Quotes</title>
+</head>
+<body>
+    <blockquote>
+        <q>Failure is an option here. If things are not failing, you are not innovating enough</q>
+
+        <cite>Elon Musk</cite>
+    </blockquote>
+</body>
+</html>
+ 24  
+Weirdchar.html
+@@ -0,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Weird Characters in Html</title>
+</head>
+<body>
+    <h2>HTml Entities</h2>
+    <ul>
+        <li>&lt;</li>
+        <li>&gt;</li>
+        <li>&amp;</li>
+        <li>&nbsp;</li>
+        <li>&copy;</li>
+        <li>&star;</li>
+        <li>&trade;</li>
+        <li>&reg;</li>
+        <li>&commat;</li>
+    </ul>
+</body>
+</html>
+ 20  
+attributes.html
+@@ -0,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>HTML Attributes</title>
+</head>
+<body>
+    <p class="para"> Description</p>
+    <p id="one"> Description</p>
+    <p lang="en"> Description</p>
+    <p dir="ltr"> Description</p>
+    <p dir="rtr"> Description</p>
+    <p contenteditable="true" dir="ltr" > Description</p>
+
+
+</body>
+</html>
+ 18  
+captions.html
+@@ -0,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Figures & Captions</title>
+</head>
+<body>
+    <figure>
+        <img src="" alt="Plant" width="100%">
+        <figcaption>This is the plant</figcaption>
+    </figure>
+
+    <marquee behavior="alternate" direction="right">This is a boot camp</marquee>
+</body>
+</html>
+ 30  
+forms.html
+@@ -0,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="forms.html" method="GET">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email address">
+        <br>
+        <br>
+        <label for="search"></label>
+        <input type="search" name="Search" id="search" placeholder="&#129269">
+        <br>
+        <br>
+        <label for="tel">Phone Number</label>
+        <input type="tel" name="Phone" id="tel" placeholder="Enter a phone number">
+        <label for="date">Date of Birth</label>
+        <input type="date" name="date" id="date" placeholder="Enter your date of birth">
+
+    </form>
+</body>
+</html>
+ 24  
+general.html
+@@ -0,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Generic Elements in HTML</title>
+</head>
+<body>
+    <div>
+        <h1>This is the heading</h1>
+        <p>This is the first<span> paragraph</span></p>
+        <p>This is the second paragraph</p>
+        <p>This is the third paragraph</p>
+
+
+    </div>
+
+    <div>
+
+    </div>
+</body>
+</html>
+ 32  
+index.html
+@@ -0,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <meta name="description" content="A description helps in search result"/>
+    <title>The HTML Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.png"
+    type="image/x-icon">
+    <script src=""></script>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <article>
+
+        </article>
+
+        <aside>
+
+        </aside>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
+ 44  
+lists.html
+@@ -0,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <title>lists</title>
+</head>
+<body>
+    <h1>Unordered lists</h1>
+    <h1>Ordered lists</h1>
+    <h1>Definition lists</h1>
+
+    <!-- Unordered lists -->
+<ul>
+   <li>food</li> 
+   <li>car</li>
+   <li>cards</li>
+   <li>Choco</li>
+</ul> 
+
+    <!-- Ordered list -->
+<ol>
+    <li>food</li> 
+    <li>car</li>
+    <li>cards</li>
+    <li>Choco</li>
+</ol>
+
+    <!-- Defenition lists -->
+<dl>
+    <dt>Term</dt>
+    <dd>Term Description</dd>
+    <dd>Term Description</dd>
+
+    <dt>Term</dt>
+    <dd>Term Description</dd>
+    <dd>Term Description</dd>
+    <dd>Term Description</dd>
+
+</dl>
+</body>
+</html>
+ 18  
+media.html
+@@ -0,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>iframes</title>
+</head>
+<body>
+    <iframe src="captions.html" frameborder="0" width="100%" height="500px"></iframe>
+
+    <!-- Google Map -->
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609823277!2d72.74109995709657!3d19.08219783958221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1669656468264!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>"
+</body>
+</html>
+ 35  
+tables.html
+@@ -0,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Tables in HTML</title>
+</head>
+<body>
+    <table>
+        <thead>Table of content</thead>
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <th>Place</th>
+                <th>Animal</th>
+                <th>Thing</th>
+            </tr>
+            <tr>
+                <td>Shruthi</td>
+                <td>Punjab</td>
+                <td>Dog</td>
+                <td>Pen</td>
+            </tr>
+            <tr>
+                <td>Anyones name</td>
+                <td>Anyplace</td>
+                <td>any animal</td>
+                <td>any item</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+ 38  
+text.html
+@@ -0,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <title>Paragraphs, Headlines, Small Texts, Subscripts & Superscripts</title>
+</head>
+<body>
+    <p>Hello everyone</p>
+    <h1> welcome to this bootcamp</h1>
+    <h2> welcome to this bootcamp</h2>
+    <h3> welcome to this bootcamp</h3>
+    <h4> welcome to this bootcamp</h4>
+    <h5> welcome to this bootcamp</h5>
+    <h6> welcome to this bootcamp</h6>
+
+    <!-- Subscripts -->
+
+    <p>
+       <b>H<sub>2</sub>O</b> 
+       <i>H<sub>2</sub>O</i> 
+
+       <!-- <i> became <em> for italic 
+        and <b> became <strong> -->
+
+    </p>
+
+    <!-- Superscripts -->
+
+    <p>
+        5<sup>3</sup>
+    </p>
+
+    <small>All rights reserved &copy; 2021</small> 
+</body>
+</html>
+ 29  
+video.html
+@@ -0,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Video</title>
+</head>
+<body>
+    <video src=" " width="100%" muted loop autoplay></video>
+    <!-- or -->
+    <video width="100%" muted loop autoplay>
+        <source src="" type="">
+        <track src=""
+            kind=" subtitles"
+            label="english"
+            srclang="en"
+            default
+        >
+        <track src=""
+        kind=" subtitles"
+        label="english"
+        srclang="en"
+        default
+    >
+    </video>
+</body>
+</html>
